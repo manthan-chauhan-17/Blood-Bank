@@ -1,0 +1,268 @@
+body {
+    background-color: #f9f9f9;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background: lightcoral;
+}
+
+/* Navigation Bar */
+.nav-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.nav-items {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.nav-items>a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-items>a:hover {
+    color: rgb(196, 76, 76);
+}
+
+.sign-up {
+    border: 1px solid #333;
+    border-radius: 16px;
+}
+
+/* Main-Section */
+.main-section {
+    width: 30%;
+    margin: auto;
+    margin-top: 22vh;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 30px;
+}
+
+.get-in-touch {
+    width: 50%;
+    height: 50px;
+    background-color: lightcoral;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+.get-in-touch:hover {
+    background-color: #f5f5f5;
+    color: lightcoral;
+}
+
+/* Second Container */
+.misson-collab-container {
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+}
+
+.misson-collab-container>h1 {
+    margin-left: 5%;
+}
+
+.misson {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.collab-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.collaborators {
+    width: 25%;
+    height: 40vh;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.collaborators>h3 {
+    text-align: center;
+    margin-top: 45%;
+    color: #666;
+}
+
+/* Third Container */
+.achievement-container {
+    height: 75vh;
+    background-color: #e8a9a2;
+}
+
+.achievement-container>h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+
+.achievement-container>p {
+    color: #fff;
+    text-align: center;
+}
+
+.number-container {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9%;
+}
+
+.numbers {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.numbers>h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.numbers>span {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Requirements */
+.requirement-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.requirement-container>h1 {
+    text-align: center;
+    color: #dc3545;
+}
+
+.requirement-container>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.requirement-container>ul>li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.6;
+    color: #222;
+}
+
+li:before {
+    content: "\2022";
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.requirement-container>p {
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    height: 80vh;
+    background-color: #da5552;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items {
+    width: 20%;
+    height: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-items>h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 18px;
+}
+
+.footer-items>ul>li {
+    list-style: none;
+    margin: 22px 0;
+    /* text-align: center; */
+}
+
+.footer-items>ul>li>a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer-items>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.footer-items>p,ul {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+/* Social icons in footer */
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    margin: 10px;
+    padding: 10px;
+}
+
+.social-icons>a {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color:  #fff;
+    transition: all 0.4s ease-out;
+    background: #da5552;
+}
